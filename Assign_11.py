@@ -1,3 +1,4 @@
+# Reads file, extracts all numerical values using regular expression, sums and prints totals.
 import re
 
 with open('regex_sum_data.txt', 'r') as f:
