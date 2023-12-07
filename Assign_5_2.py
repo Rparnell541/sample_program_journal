@@ -1,3 +1,5 @@
+# Prompts user to input a series of numbers, displays error message if input is not an integer, 
+# and reports back the biggest and smallest number in the series when user types "done".
 largest = None
 smallest = None
 while True :
