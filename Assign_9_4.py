@@ -1,4 +1,4 @@
-#For opening a txt file, finding certain lines, counting the words,
+# For opening a txt file, finding certain lines, counting the words,
 # then finding which "word" happens the most and how many times.
 name = input("Enter file:")
 if len(name) < 1:
