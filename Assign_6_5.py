@@ -1,4 +1,5 @@
-text = "X-DSPAM-Confidence:    0.8475"
+# Code for snipping a numerical value from sample text data, and then prints extracted number.
+text = "X-Sample-Data:    123.4567"
 
 ipos = text.find(':')
 piece = text[ipos+1:]
