@@ -1,3 +1,4 @@
+# For calculating pay including overtime.
 def computepay(hrs, rt):
     if hrs <= 40:
         pay = hrs*rt
