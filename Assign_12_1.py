@@ -1,3 +1,4 @@
+# URL scraping tool, fetches html using BeautifulSoup library, parses and extracts data from HTML.
 import urllib.request as ur
 from bs4 import BeautifulSoup
 
