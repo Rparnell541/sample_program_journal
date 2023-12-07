@@ -1,3 +1,4 @@
+# For calculating pay based on pay rate and hours worked.
 hrs = input('Enter Hours:')
 rate = input('Enter Rate:')
 h = float(hrs)
