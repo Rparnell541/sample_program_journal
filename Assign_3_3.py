@@ -1,3 +1,4 @@
+# For calculating numeric score to letter grading in school.
 score = input('Enter Score: ')
 try :
     grade = float(score)
