@@ -1,4 +1,4 @@
-#For opening a file and making a list of all the words used in the file.
+# For opening a file and making a list of all the words used in the file.
 fname = input("Enter file name: ")
 word_list = []
 with open(fname, 'r') as file:
