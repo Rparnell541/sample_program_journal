@@ -1,3 +1,7 @@
+# Python script prompts the user for a location, constructs a URL for data retrieval from a specified service,
+# fetches and decodes the data using SSL, parses it as JSON, and extracts the 'place_id' from the first result 
+# if the response status is 'OK', also incorporates error handling for unsuccessful responses and utilizes 
+# a default API key if none is provided.
 import urllib.request, urllib.parse, urllib.error
 import json
 import ssl
