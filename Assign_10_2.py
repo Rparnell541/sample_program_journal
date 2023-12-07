@@ -1,5 +1,5 @@
-#For scanning through txt file, finding certain lines, slicing what I need from each line,
-#putting it in a dictionary, then counting how many things are in the dictionary and how many times it comes up.
+# For scanning through a txt file, finding certain lines, slicing what I need from each line,
+# putting it in a dictionary, then counting how many things are in the dictionary and how many times it comes up.
 name = input("Enter file:")
 thand = open(name)
 counts = dict()
