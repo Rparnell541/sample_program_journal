@@ -1,3 +1,6 @@
+# A project I did for my professor Charles Sevrence at University of Michigan,
+# retrieves XML data from a user specified location, extracts the element "comment"
+# and calculats the sum of count values of these elements.
 import urllib.request, urllib.parse, urllib.error
 import xml.etree.ElementTree as ET
 import ssl
