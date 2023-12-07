@@ -1,4 +1,4 @@
-#For opening a file and counting how many lines start with a certain word.
+# For opening a file and counting how many lines start with a certain word.
 fname = input("Enter file name: ")
 count = 0
 fh = open(fname)
