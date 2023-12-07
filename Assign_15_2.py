@@ -1,3 +1,8 @@
+# creates an SQLite database named '15_rosterdb.sqlite' with tables for users, courses, 
+# and the relationship between them. It then populates the tables with data from a JSON file ('roster_data.json'). 
+# The script reads the JSON data, extracts information about users, courses, and their roles, and inserts 
+# this data into the respective tables. Finally, it retrieves and prints a hexadecimal identifier for a specific record 
+# from the joined tables, ordered by the identifier.
 import json
 import sqlite3
 
