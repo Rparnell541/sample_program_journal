@@ -1,3 +1,8 @@
+# This Python script utilizes SQLite and ElementTree to parse an iTunes Library XML file, 
+# extracting information about tracks, artists, albums, and genres. It establishes a SQLite database 
+# with tables for artists, genres, albums, and tracks, then populates these tables with data parsed from the XML file. 
+# The script iterates through the XML structure, extracting relevant information such as track name, artist, album, genre, 
+# play count, rating, and length, and inserts this data into the corresponding database tables.
 import xml.etree.ElementTree as ET
 import sqlite3
 
