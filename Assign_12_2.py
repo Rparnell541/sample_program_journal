@@ -1,3 +1,5 @@
+# Performs web scraping a certain number of times, and in a given 
+# position in the links of the webpage.
 import urllib.request, urllib.parse, urllib.error
 import ssl
 from bs4 import BeautifulSoup
